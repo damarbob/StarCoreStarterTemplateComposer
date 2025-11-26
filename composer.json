@@ -1,0 +1,12 @@
+{
+  "name": "konstelasi/starter-template",
+  "type": "library",
+  "description": "Starter Template module for StarCore",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "StarterTemplate\\": "./"
+    }
+  },
+  "require": {}
+}
