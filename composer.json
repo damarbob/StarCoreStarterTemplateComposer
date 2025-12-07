@@ -1,12 +1,16 @@
 {
-  "name": "konstelasi/starter-template",
+  "name": "damarbob/starcore-starter-template-composer",
   "type": "library",
-  "description": "Starter Template module for StarCore",
+  "description": "Starter Template module for StarCore kernel using Composer",
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "StarterTemplate\\": "./"
+      "StarterTemplateComposer\\": "src/"
     }
   },
-  "require": {}
+  "require": {
+    "php": "^8.1",
+    "damarbob/starcore": "dev-main"
+  },
+  "minimum-stability": "dev"
 }
