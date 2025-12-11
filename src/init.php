@@ -12,5 +12,5 @@ HyperHooks::getInstance()->register(hook('Core.modules:init'), function () {
 
     /** @var Star $star */
     $star = config('Star');
-    log_message('info', $star->kernelName . ' ' . $star->kernelVersion);
+    log_message('info', 'Starter Template Composer: ' . $star->kernelName . ' ' . $star->kernelVersion);
 });
